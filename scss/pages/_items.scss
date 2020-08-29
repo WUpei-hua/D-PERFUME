@@ -1,0 +1,23 @@
+.items{
+    .card img{
+        border-radius: 0px;
+    }
+    .card-body{
+        padding: 2px 0px 0px 0px;
+        span{
+            margin-left: 8px;
+            text-decoration: line-through;
+        }
+        a{
+            margin-right: 10.05px;
+        }
+    }
+    nav a{
+        color: #000;
+    }
+    nav a:hover{
+        background: transparent;
+        text-decoration: underline;
+        color: #AC8A46;
+    }
+}

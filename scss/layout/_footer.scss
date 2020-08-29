@@ -1,0 +1,47 @@
+.footer{
+    .footbanner{
+        background-image: url(https://i.imgur.com/fFtm6xu.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 600px;
+        .row{
+            padding-top: 188px;
+        }
+    }
+    input{
+        border: 2px solid;
+        width: 350px;
+        height: 60px;
+    }
+    li a:hover{
+        text-decoration: none;
+    }
+}
+.contact{
+    .logo a{
+        background-image: url(https://i.imgur.com/H3mE9WX.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 128px;
+        height: 38px;
+        display: block;
+        text-indent: 101%;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    p{
+        font-size: 14px;
+    }
+}
+
+@include ipad(){
+    .footer{
+        .footbanner{
+            background-image: url(https://i.imgur.com/p68m5xt.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 600px;
+        }
+    }
+}

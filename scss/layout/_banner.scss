@@ -1,0 +1,33 @@
+.banner{
+    background-image: url(https://i.imgur.com/0S73EPb.png);
+    background-repeat: no-repeat;
+    height: 870px;
+    p{
+        font-size: 24px;
+    }
+    button{
+        border: 2px solid #FFFFFF;
+        border-radius: 30px;
+        background: transparent;
+        width: 350px;
+        height: 60px;
+        font-size: 28px;
+        font-weight: 400;
+        color: #FFFFFF;
+        &:hover{
+            background: #ffffff50;
+        }
+        &:focus{
+            outline: 0;
+        }
+    }
+}
+
+@include ipad(){
+    .banner{
+        background-image: url(https://i.imgur.com/C83brSz.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 480px;
+    }
+}

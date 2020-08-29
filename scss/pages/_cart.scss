@@ -1,0 +1,24 @@
+.col-lg-8 img{
+    width: 100%;
+}
+.productdetail{
+    .num{
+        border: 1px solid #916000;
+        width: 45%;
+    }
+    .add{
+        width: 55%;
+        background: #916000;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+    a{
+        img{
+            margin-right: 5.71px;
+        }
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}

@@ -1,0 +1,63 @@
+.product{
+    p{
+        font-size: 20px;
+    }
+    .experiencelist li{
+        button{
+            background: transparent;
+            border: 2px solid #000000;
+            border-radius: 30px;
+            width: 350px;
+            height: 60px;
+            font-size: 20px;
+            &:hover{
+                background: #ffffff50;
+            }
+            &:focus{
+                outline: 0;
+            }
+        }
+    }
+    .card{
+        img{
+            position: relative;
+        }
+        .layer{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+        }
+    }
+    .card-body{
+        padding: 8px 0px 0px 0px;
+        span{
+            margin-left: 8px;
+            text-decoration: line-through;
+        }
+    }
+    .card-img-overlay{
+        h4{
+            position: absolute;
+            top: 40%;
+            left: 37%;
+        }
+    }
+}
+.special{
+    padding: 40px 0px 40px 0px;
+    li a{
+        color: black;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}
+@include ipad(){
+    .special{
+        padding: 32px 0px 36px 0px;
+        ul{
+            flex-direction: column;
+        }
+    }
+}
